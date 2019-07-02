@@ -4,4 +4,4 @@ A basic Data Plugin for Sketch, that fills your text layers with random Lorem Ip
 
 ## Installation
 
-- Download & unzip [the latest version](https://github.com/BohemianCoding/sketch-ipsum/releases/latest/download/sketch-ipsum.zip) and double click it to install it
+- Download & unzip [the latest version](https://github.com/BohemianCoding/sketch-ipsum/releases/latest/download/sketch-ipsum.sketchplugin.zip) and double click it to install it
