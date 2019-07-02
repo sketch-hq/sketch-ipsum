@@ -1,0 +1,12 @@
+# build artefacts
+*.sketchplugin
+*.zip
+*.sketch
+
+# npm
+node_modules
+.npm
+npm-debug.log
+
+# mac
+.DS_Store

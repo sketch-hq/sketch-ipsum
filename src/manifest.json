@@ -1,0 +1,24 @@
+{
+  "name": "Sketch Ipsum",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "suppliesData": true,
+  "commands": [
+    {
+      "script": "my-command.js",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartup",
+          "Shutdown": "onShutdown",
+          "SupplyDataShort": "onSupplyDataShort",
+          "SupplyDataMedium": "onSupplyDataMedium",
+          "SupplyDataLong": "onSupplyDataLong"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "Sketch Ipsum"
+  }
+}
