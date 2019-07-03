@@ -46,7 +46,10 @@ class Markov {
       curr = this.cache[choice.split(' ').pop()]
     }
     var ret = arr.join(' ')
-    return ret.charAt(0).toUpperCase() + ret.slice(1).toLowerCase()
+    if (ret.charAt(ret.length - 1) == ',') {
+      ret = ret.slice(0,-1)
+    }
+    return ret.charAt(0).toUpperCase() + ret.slice(1).toLowerCase() + '.'
   }
 }
 
