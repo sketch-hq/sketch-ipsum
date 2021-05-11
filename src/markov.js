@@ -1,4 +1,4 @@
-class Markov {
+export class Markov {
   // basic usage: new Markov(lotsOfText).generate()
 
   // markov chain constructor
@@ -52,5 +52,3 @@ class Markov {
     return ret.charAt(0).toUpperCase() + ret.slice(1).toLowerCase() + '.'
   }
 }
-
-module.exports = Markov

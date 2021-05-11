@@ -1,7 +1,7 @@
 const sketch = require('sketch')
 const { DataSupplier, UI } = sketch
 const util = require('util')
-const Markov = require('./markov')
+import { Markov } from './markov'
 
 export function onStartup () {
   DataSupplier.registerDataSupplier('public.text', 'Sketch Ipsum Short', 'SupplyDataShort')
