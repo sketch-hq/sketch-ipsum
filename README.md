@@ -6,4 +6,4 @@ Just for fun, it uses a [Markov chain](https://en.wikipedia.org/wiki/Markov_chai
 
 ## Installation
 
-- Download & unzip [the latest version](https://github.com/BohemianCoding/sketch-ipsum/releases/latest/download/sketch-ipsum.sketchplugin.zip) and double click it to install it
+- Download & unzip [the latest version](https://github.com/sketch-hq/sketch-ipsum/releases/latest/download/sketch-ipsum.sketchplugin.zip) and double click it to install it
